@@ -61,13 +61,11 @@ main {
 }
 
 .footers {
-  /* text-align: center; */
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   color: #bdbdbd;
-
   text-align: center;
 }
 
