@@ -98,12 +98,22 @@ main {
     font-size: 17px;
     line-height: normal;
   }
+  .footers {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 50px;
+    width: 100%;
+    color: #bdbdbd;
+    text-align: center;
+  }
 }
 
 @media (max-width: 380px) {
-  body {
+  /* body {
     background-color: red;
-  }
+  } */
   main {
     margin-top: 20px;
     border-radius: 5px;
@@ -129,6 +139,17 @@ main {
     font-family: "Space Mono", monospace;
     font-size: 13px;
     line-height: normal;
+  }
+
+  .footers {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 20px;
+    width: 100%;
+    color: #bdbdbd;
+    text-align: center;
   }
 }
 
